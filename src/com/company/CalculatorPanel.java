@@ -4,13 +4,13 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
-public class Calc extends JFrame implements ActionListener
+public class CalculatorPanel extends JFrame implements ActionListener
 {
     JButton bPlus, bMinus, bMultiply, bDivide, bEqual, bClear, bOpenParanth, bCloseParanth, bDot;
     JButton b[]=new JButton[10];
     JTextField res;
 
-    public Calc()
+    public CalculatorPanel()
     {
         super("Calulator");
         JPanel p=createPanel();
@@ -118,6 +118,6 @@ public class Calc extends JFrame implements ActionListener
 
     public static void main(String arg[])
     {
-        new Calc();
+        new CalculatorPanel();
     }
 }
