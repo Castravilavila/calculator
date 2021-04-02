@@ -35,7 +35,7 @@ class ExpressionCalculatorTest {
     }
 
     @Test
-    void whenNothingIsPassedToCalculatorExceptionIsThrown() throws Exception {
+    void whenNothingIsPassedToCalculatorZeroIsReturned() throws Exception {
         String expression = "    ";
 
         double result = 0;
